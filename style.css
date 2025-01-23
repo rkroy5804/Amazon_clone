@@ -1,0 +1,255 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: Arial;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: #131921;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-logo{
+    height: 59px;
+    width: 129.73px;
+    margin-left: 10px;
+}
+.logo{
+    background: url(images/amazon_logo.png);
+    background-size: cover;
+    height: 52px;
+    width: 129.73px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.location{
+    height: 59px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    margin-left: 2px;
+}
+.icon{
+    color: white;
+    margin-top: 1.2rem;
+}
+.add1{
+    color: #cccccc;
+    font-weight: lighter;
+}
+
+.add2{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.searchbox{
+    height: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.search-select{
+    height: 50px;
+    width: 70px;
+    background-color: #e6e6e6;
+    color: #0f1111;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.searchinput{
+    height: 50px;
+    width: 100%;
+    border: none;
+}
+
+.searchicon{
+    height: 50px;
+    width:70px ;
+    /* scale: 1.5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #F3A847
+}
+.language{
+    height: 59px;
+    width: 95px;
+    color: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+}
+.langselect{
+    background-color: #131921;
+    color: white;
+    border: none;
+    width: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.useraccount{
+    height: 59px;
+    width: 190px;
+    margin-left: 5px;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.text2{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.return{
+    height: 59px;
+    width: 130px;
+    margin-left: 5px;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.cart{
+    height: 59px;
+    width: 120px;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+}
+.cart1{
+    color: white;
+    font-weight: bold;
+    font: size 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.cartlogo{
+    color: white;
+    scale: 2.2;
+}
+.pannel{
+    height: 47px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.class{
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.first{
+     height: 400px;
+     width: 100%;
+}
+.shop-sections{
+    background: #cccccc;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    width: 100%;
+    height:1000px ;
+    background: #cccccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 480px;
+    width: 23%;
+    background: white; 
+    padding-left: 1rem;
+    padding-top: 20px;
+}
+.grid{
+    height: 350px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-gap: 15px 15px;
+    margin-top: 1.5rem;
+    margin-left: 0.6rem;
+}
+.image{
+    width: 12   0px;
+    height: 100px;
+}
+
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.bottom-text{
+    padding-top:.5rem ;
+}
+
+.mid-section{
+    height: 300px;
+    width: 100%;
+    background-color: #cccccc;
+}
+.mid-boxes{
+    height: 300px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mid-box{
+    height: 250px;
+    width: 100%;
+    background: white; 
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 40px;
+}
+.mid-box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
